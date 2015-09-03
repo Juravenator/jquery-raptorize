@@ -50,7 +50,8 @@ $(document).ready(function () {
                         "position": "fixed",
                         "bottom": "-700px",
                         "right": "0",
-                        "display": "none"
+                        "display": "none",
+                        "z-index": "9999999"
                     })
 
                     var raptor = $('#elRaptor').css({
